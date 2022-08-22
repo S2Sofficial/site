@@ -4,50 +4,10 @@ body {
   background-image:linear-gradient(to right,#0f2027, #203a43,#2c5364) ;          
   background-repeat: no-repeat;
   background-size: auto;
-
-a{
-    color: whitesmoke;
-}
-
-p{
-    color: wheat;
-    font-family: "Abril Fatface";
-}
-
-#logo {
-    color:white;
-    margin: 20px 0px;
-    font-family: flood-std;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 45px;
-}
-
-h1 {
-  font-family: 'Chakra Petch', sans-serif;
-  color: white;
-  margin-left: 20px;
-}
-
-main {
-  font-family: 'Abril Fatface', cursive;
-  color: white;
-  margin-left: 20px;
-}
-
-section{
-    padding: 0px;
-    margin: auto;o;o;uto;
-    font-family: 'Rubik Dirt', cursive;
-    color: whitesmoke;
-}
-
-p{
-    font-family: "monospace san-serif";
 }
 
 img{
-    width: 200px;
+    width: auto;
     height: auto;
 }
 
@@ -63,6 +23,7 @@ img{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-family: 'Chakra Petch';
 }
 
 .topnav a:hover {
@@ -71,7 +32,7 @@ img{
 }
 
 .topnav a.active {
-  background-color: #d415ffcb;
+  background-color: #22c956;
   color: white;
 }
  color: white;
@@ -81,35 +42,67 @@ img{
   display: none;
 }
 
-/* I Will use media query for making selectivity in images to make them responsive. */
-
+#logo {
+    color:white;
+    margin: 20px 0px;
+    font-family: flood-std;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+}
+h1{
+    font-family: 'Chakra Petch', sans-serif;
+  color: springgreen;
+  margin-left: 20px;
+}
+h2,h3{
+    font-family: 'Chakra Petch', sans-serif;
+    color: whitesmoke;
+    margin-left: 25px;
+}
+p{
+    font-family: 'Chakra Petch';
+    color: white;
+    padding-left: 10px;
+}
 footer{
-    porelativevelative;
+    position: relative;
     left: 0px;
     bottom: 0px;
     width: 100%;
     background-color:black ;
     color: whitesmoke;
     text-align: center;
-    padding: 0px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+copyright{
+    background-color: #607d8b blue-grey;
+}
+a:link {
+  color: greenyellow;
+  background-color: transparent;
+  text-decoration: none;
 }
 
-aside {
-  width: 30%;
-  padding-left: 15px;
-  margin-left: 15px;
-  float: right;
-  font-style: italic;
-  background-color: lightgray;
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
 }
 
-yle: italic;
-  background-color: lightgray;
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
-
-: lightgray;
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
 }
-
-
-
+iframe{
+    padding: 10px;
+}
